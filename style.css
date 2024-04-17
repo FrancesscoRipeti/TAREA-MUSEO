@@ -43,6 +43,17 @@ h2,h1,p,a,.mt-0{
     border-radius: 1; /* Cambia el radio a 0 para hacer la imagen cuadrada */
   }
   
+  #contacto {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 1150px;
+    bottom: 350px;
+  }
   
+  #contacto .btn-contacto{
+    position: relative; /* importantisimo para que se pueda cambiar la posicion de los botones, sin esto las cosas no cambian de posicion*/
+    left: 420px;
+  }
   
 
